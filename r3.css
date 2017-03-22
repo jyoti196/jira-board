@@ -1,0 +1,170 @@
+/* new styles */
+body { padding-top: 52px; overflow: hidden;}
+
+.jira-navbar-default {
+    background: #205081;
+    border-radius: 0px;
+}
+
+.jira-left-menu {
+    position: fixed;
+    left: 0;
+    top: 52px;
+    bottom: 0;
+    width: 100px;
+    background: #f5f5f5;
+    padding-top: 15px;
+}
+
+.jira-left-menu a {
+     font-size: 20px;
+     color: #333333;
+     padding: 15px;
+     display: block;
+}
+
+.jira-left-menu a:hover {
+    background: #e6e6e6;
+}
+
+.jira-left-menu > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.jira-left-menu > ul > li {
+    display: block;
+    text-align: center;
+
+}
+.headings{
+   position: fixed;
+   padding: 8px;
+   margin-left:80px;
+   width:98%
+  }
+
+.jira-primary-outline {
+    background-color: #ebf2f9;
+    color: #205081;
+    border-color: #205081;
+}
+
+.main {
+    position: relative;
+}
+
+#id_main_board {
+    margin-left: 100px;
+    margin-top: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height:650px;
+}
+
+.glyphicon-bullhorn{
+     color: white;
+ }
+
+ .glyphicon-question-sign{
+     color: white;
+ }
+.card{
+	background: white;
+	border-radius: 10px;
+	padding: 15px;
+    margin: 10px;
+}
+
+.card:hover{
+    background-color: #ebf2f9;
+    color: #205081;
+    border-color:3px solid #205081;
+}
+.jira-quick-filters {
+    list-style: none;
+    padding: 0;
+}
+
+.jira-quick-filters > li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jira-board-table {
+    width: 100%;
+}
+
+.jira-board-table td {
+    width: 16.66666671%;
+    vertical-align: top;
+    padding:15px;
+    background:#dee2e6 ;
+}
+
+.jira-board-table tr td{
+    border: 10px solid white;
+}
+
+.btn-group{
+    margin-top: 20px;
+}
+.collapse.navbar-collapse ul a{
+   color:white;
+}
+
+.col-sm-12.text-left{
+    margin:18px;
+}
+
+.output {
+	position: absolute;
+    right: -100%;
+	bottom: 0;
+    top:0;
+	background: #dee2e6;
+	padding: 30px;
+	width: 360px;
+    height:700px;
+	transition: all 0.4s ease-in-out;
+    overflow-y: auto;
+}
+     .output.sidenav {
+      height: 100%;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 50px;
+      background: grey;
+      padding-top: 10px;
+    }
+
+    .output.sidenav a {
+     font-size: 20px;
+     color: #333333;
+     padding: 15px;
+     display: block;
+    }
+
+.output.second td {
+    padding: 10px;
+    text-align: left;
+    }
+
+
+.ui-state-active, .ui-droppable-active {
+  position: relative;
+}
+.ui-state-active::after, .ui-droppable-active::after {
+  content: "Drop Here";
+  font-color: green;
+  position: absolute;
+  top: 3px;
+  left:3px;
+  bottom: 3px;
+  right:3px;
+  border-width: 2px !important;
+  border-style: dashed !important;
+  border-color: green !important;
+}
